@@ -8,7 +8,7 @@ const map = new mapbox.Map({
     container: "map",
     center: [-87.6354, 41.8885], // FullStack NY coordinates; alternatively, use [-87.6354, 41.8885] for Chicago
     zoom: 12, // starting zoom
-    style: 'mapbox://styles/mapbox/light-v9' // mapbox has lots of different map styles available.
+    style: 'mapbox://styles/mapbox/streets-v10' // mapbox has lots of different map styles available.
   });
 
   const marker = buildMarker("activity", [-87.6354, 41.8885]); // or [-87.6354, 41.8885]

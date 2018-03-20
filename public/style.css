@@ -8,28 +8,67 @@
     margin: 0 4em;
     padding: 10px;
     width: calc(100vw - 8em);
-    color: #fff;
-    background-color: rgba(37, 37, 37, 0.8);
+    background-color: #817d7d;
     border-radius: 0 0 1em 1em;
     z-index: 2;
-    opacity: 0;
-    transition: transform 0.5s, opacity .5s;
-    transform: translateY(-4em);
   }
 
   header nav {
     display: flex;
+    justify-content: space-around;
   }
 
-
+  .nav-item{
+    display: flex;
+    font-style: italic;
+    font-stretch: expanded;
+    margin-left: 10px;
+  }
 
   body {
-    margin: 0;
+    margin: 5px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #C1B5AD;
+    /* background-color: #cf9b4f; */
   }
 
+  .container {
+    margin-top: 3rem;
+  }
+
+  .container>div{
+    margin-top: 2.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .super-container{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 275px;
+    justify-content: space-between;
+  }
+  .container>ul{
+    list-style-type: none;
+  }
+
+  Itinery{
+    background-color: #629a22;
+    border-radius: 15px;
+  }
+
+  attractions{
+    background-color: #cf9b4f;
+    border-radius: 15px;
+  }
+
+  /* .wholeApp {
+    display: flex;
+    flex-direction: row-reverse;
+  } */
+
   #map {
+      z-index: -1;
+      position: fixed;
       height: 100vh;
-      widows: 100vw;
+      width: 100vw;
   }
